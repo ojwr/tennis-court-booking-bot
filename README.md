@@ -16,9 +16,9 @@ Command line arguements for script:<br />
 
 If no date is specified then a court one week into the future will be booked. 
 
-Example cron command for booking a court every monday evening at 9pm: 
+Example cron command for booking a court every monday evening at 9pm. Courts are available a week in advance with new bookings opening at 8pm every evening. 
    ```sh
-   0 21 * * 1 cd /Path/to/directory/containing/script && python3 booking-bot-script.py 21
+   1 20 * * 1 cd /Path/to/directory/containing/script && python3 booking-bot-script.py 21
    ```
 
 ### Requirements

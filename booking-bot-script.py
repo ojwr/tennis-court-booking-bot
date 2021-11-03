@@ -35,7 +35,7 @@ try:
     year = int(sys.argv[4])
 except:
     today = datetime.datetime.today()
-    delta = datetime.timedelta(days=6) 
+    delta = datetime.timedelta(days=7) 
     date_in_one_week = today + delta
     year = date_in_one_week.year
     month = date_in_one_week.month
